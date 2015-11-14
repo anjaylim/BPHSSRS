@@ -1,0 +1,20 @@
+d:\myfilesfolder\anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.exe.config
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.exe
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.pdb
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.csprojResolveAssemblyReference.cache
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmMain.resources
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.Properties.Resources.resources
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmStudentInformation.resources
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.csproj.GenerateResource.Cache
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.exe
+d:\myfilesfolder\Anjay\my documents\visual studio 2012\Projects\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.pdb
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.exe.config
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.exe
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.pdb
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.exe
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.pdb
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.csprojResolveAssemblyReference.cache
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmMain.resources
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.Properties.Resources.resources
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmStudentInformation.resources
+D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.csproj.GenerateResource.Cache
