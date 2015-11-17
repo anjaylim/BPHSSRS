@@ -18,3 +18,14 @@ D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmMain.resour
 D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.Properties.Resources.resources
 D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmStudentInformation.resources
 D:\80 Code Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.csproj.GenerateResource.Cache
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.exe.config
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.exe
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.pdb
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.exe
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\bin\Debug\BPHSSRS.pdb
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.csprojResolveAssemblyReference.cache
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmMain.resources
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.Properties.Resources.resources
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmStudentInformation.resources
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.csproj.GenerateResource.Cache
+D:\Repositories\BPHSSRS\BPHSSRS\BPHSSRS\obj\Debug\BPHSSRS.frmAbout.resources
