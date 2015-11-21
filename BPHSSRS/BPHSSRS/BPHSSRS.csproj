@@ -50,6 +50,30 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="AcademicYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcademicYear.Designer.cs">
+      <DependentUpon>AcademicYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscountsAndSurcharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiscountsAndSurcharge.Designer.cs">
+      <DependentUpon>DiscountsAndSurcharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradeAndSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradeAndSection.Designer.cs">
+      <DependentUpon>GradeAndSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportHeader.Designer.cs">
+      <DependentUpon>ReportHeader.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentInformation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,8 +88,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TuitionFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuitionFee.Designer.cs">
+      <DependentUpon>TuitionFee.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcademicYear.resx">
+      <DependentUpon>AcademicYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscountsAndSurcharge.resx">
+      <DependentUpon>DiscountsAndSurcharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradeAndSection.resx">
+      <DependentUpon>GradeAndSection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -79,8 +118,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReportHeader.resx">
+      <DependentUpon>ReportHeader.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentInformation.resx">
       <DependentUpon>StudentInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TuitionFee.resx">
+      <DependentUpon>TuitionFee.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

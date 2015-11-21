@@ -46,12 +46,22 @@
             this.txtFamilyName = new System.Windows.Forms.TextBox();
             this.txtGivenName = new System.Windows.Forms.TextBox();
             this.txtMiddleName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtHomeAddress = new System.Windows.Forms.TextBox();
+            this.txtGender = new System.Windows.Forms.TextBox();
+            this.txtDateOfBirth = new System.Windows.Forms.TextBox();
+            this.txtTelNo = new System.Windows.Forms.TextBox();
+            this.txtCitizenship = new System.Windows.Forms.TextBox();
+            this.hdrSimGender = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.hdrSimHomeAddress = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.hdrSimDateOfBirth = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.hdrSimTelNo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.hdrSimCitizenship = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -83,7 +93,12 @@
             this.hdrSimSchoolId,
             this.hdrSimFamilyName,
             this.hdrSimGivenName,
-            this.hdrSimMiddleName});
+            this.hdrSimMiddleName,
+            this.hdrSimGender,
+            this.hdrSimHomeAddress,
+            this.hdrSimDateOfBirth,
+            this.hdrSimTelNo,
+            this.hdrSimCitizenship});
             this.lstStudentInfoMst.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lstStudentInfoMst.FullRowSelect = true;
             this.lstStudentInfoMst.GridLines = true;
@@ -98,7 +113,7 @@
             // hdrSimSchoolId
             // 
             this.hdrSimSchoolId.Text = "School ID";
-            this.hdrSimSchoolId.Width = 113;
+            this.hdrSimSchoolId.Width = 90;
             // 
             // hdrSimFamilyName
             // 
@@ -113,7 +128,7 @@
             // hdrSimMiddleName
             // 
             this.hdrSimMiddleName.Text = "Middle Name";
-            this.hdrSimMiddleName.Width = 173;
+            this.hdrSimMiddleName.Width = 166;
             // 
             // tableLayoutPanel2
             // 
@@ -178,6 +193,11 @@
             this.tableLayoutPanel3.Controls.Add(this.label8, 1, 4);
             this.tableLayoutPanel3.Controls.Add(this.label9, 3, 2);
             this.tableLayoutPanel3.Controls.Add(this.label10, 3, 3);
+            this.tableLayoutPanel3.Controls.Add(this.txtHomeAddress, 4, 0);
+            this.tableLayoutPanel3.Controls.Add(this.txtGender, 2, 4);
+            this.tableLayoutPanel3.Controls.Add(this.txtDateOfBirth, 4, 1);
+            this.tableLayoutPanel3.Controls.Add(this.txtTelNo, 4, 2);
+            this.tableLayoutPanel3.Controls.Add(this.txtCitizenship, 4, 3);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 66);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
@@ -236,7 +256,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(152, 31);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Middle Name";
+            this.label5.Text = "Middle Name:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtSchoolId
@@ -275,6 +295,57 @@
             this.txtMiddleName.Size = new System.Drawing.Size(259, 22);
             this.txtMiddleName.TabIndex = 7;
             // 
+            // label6
+            // 
+            this.label6.Location = new System.Drawing.Point(458, 0);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(152, 31);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Home Address:";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(458, 31);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(152, 31);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Date of Birth:";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            this.label8.Location = new System.Drawing.Point(31, 124);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(152, 28);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "Gender:";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(458, 62);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(152, 31);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Tel No:";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(458, 93);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(152, 31);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "Citizenship:";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -287,62 +358,63 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Student Information Entry Sheet";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label6
+            // txtHomeAddress
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(458, 0);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 17);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Home Address";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.txtHomeAddress.Location = new System.Drawing.Point(617, 3);
+            this.txtHomeAddress.Name = "txtHomeAddress";
+            this.txtHomeAddress.Size = new System.Drawing.Size(260, 22);
+            this.txtHomeAddress.TabIndex = 10;
             // 
-            // label7
+            // txtGender
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(458, 31);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(87, 17);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Date of Birth";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtGender.Location = new System.Drawing.Point(190, 127);
+            this.txtGender.Name = "txtGender";
+            this.txtGender.Size = new System.Drawing.Size(260, 22);
+            this.txtGender.TabIndex = 11;
             // 
-            // label8
+            // txtDateOfBirth
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(31, 124);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 17);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Gender";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtDateOfBirth.Location = new System.Drawing.Point(617, 34);
+            this.txtDateOfBirth.Name = "txtDateOfBirth";
+            this.txtDateOfBirth.Size = new System.Drawing.Size(260, 22);
+            this.txtDateOfBirth.TabIndex = 12;
             // 
-            // label9
+            // txtTelNo
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(458, 62);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 17);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Tel No";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtTelNo.Location = new System.Drawing.Point(617, 65);
+            this.txtTelNo.Name = "txtTelNo";
+            this.txtTelNo.Size = new System.Drawing.Size(260, 22);
+            this.txtTelNo.TabIndex = 13;
             // 
-            // label10
+            // txtCitizenship
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(458, 93);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 17);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "Citizenship";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtCitizenship.Location = new System.Drawing.Point(617, 96);
+            this.txtCitizenship.Name = "txtCitizenship";
+            this.txtCitizenship.Size = new System.Drawing.Size(260, 22);
+            this.txtCitizenship.TabIndex = 14;
+            // 
+            // hdrSimGender
+            // 
+            this.hdrSimGender.Text = "Gender";
+            // 
+            // hdrSimHomeAddress
+            // 
+            this.hdrSimHomeAddress.Text = "Home Address";
+            this.hdrSimHomeAddress.Width = 200;
+            // 
+            // hdrSimDateOfBirth
+            // 
+            this.hdrSimDateOfBirth.Text = "Date of Birth";
+            // 
+            // hdrSimTelNo
+            // 
+            this.hdrSimTelNo.Text = "Tel No";
+            // 
+            // hdrSimCitizenship
+            // 
+            this.hdrSimCitizenship.Text = "Citizenship";
             // 
             // frmStudentInformation
             // 
@@ -353,6 +425,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmStudentInformation";
             this.Text = "Student Information Master";
+            this.Load += new System.EventHandler(this.frmStudentInformation_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -388,5 +461,15 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ColumnHeader hdrSimGender;
+        private System.Windows.Forms.ColumnHeader hdrSimHomeAddress;
+        private System.Windows.Forms.ColumnHeader hdrSimDateOfBirth;
+        private System.Windows.Forms.ColumnHeader hdrSimTelNo;
+        private System.Windows.Forms.ColumnHeader hdrSimCitizenship;
+        private System.Windows.Forms.TextBox txtHomeAddress;
+        private System.Windows.Forms.TextBox txtGender;
+        private System.Windows.Forms.TextBox txtDateOfBirth;
+        private System.Windows.Forms.TextBox txtTelNo;
+        private System.Windows.Forms.TextBox txtCitizenship;
     }
 }

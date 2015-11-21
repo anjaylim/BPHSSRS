@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace BPHSSRS
 {
-    public partial class frmStudentInformation : Form
+    public partial class frmGradeAndSection : Form
     {
-        public frmStudentInformation()
+        public frmGradeAndSection()
         {
             InitializeComponent();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmStudentInformation_Load(object sender, EventArgs e)
+        private void GradeAndSection_Load(object sender, EventArgs e)
         {
 
         }
