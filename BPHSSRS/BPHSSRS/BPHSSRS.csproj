@@ -94,6 +94,12 @@
     <Compile Include="TuitionFee.Designer.cs">
       <DependentUpon>TuitionFee.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserAccountManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccountManagement.Designer.cs">
+      <DependentUpon>UserAccountManagement.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TuitionFee.resx">
       <DependentUpon>TuitionFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccountManagement.resx">
+      <DependentUpon>UserAccountManagement.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
